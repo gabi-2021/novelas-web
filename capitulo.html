@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitulo</title>
+    <link rel="stylesheet" href="css/style-capitulo.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>        
+    <link href="https://fonts.googleapis.com/css2? family=Maven+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contenedor-de-todo">
+        <!--Inicio de cabezera-->
+        <div class="grid">
+            <div id="dragon">
+                <img src="imagenes\logoofi.png" alt="logo">
+            </div>
+            <div id="titulo">
+                <h1>Dragono </h1>
+            </div>
+            <div id="menu">
+                <a href=""><i class="fas fa-home"></i> Inicio</a>
+                <a href=""><i class="fas fa-sort-alpha-down"></i> Orden Alfabetico</a>
+                <a href=""><i class="fas fa-star"></i> Mas leidos</a>
+                <a href=""><i class="fas fa-book"></i> Genero</a>
+                <a href=""><i class="far fa-user"></i> Iniciar sesion</a>
+            </div>
+        </div>
+        <!--Cierre de cabezera-->
+        <div class="contenedor-del-capitulo">
+            <h1>Capitulo</h1>
+            <div class="grilla">
+                <div class="barra">
+                    <i class="fas fa-minus" onclick="disminuirTamaño()"></i>
+                    <i class="fas fa-plus"  onclick="aumentarTamaño()"></i>
+                    <i class="fas fa-redo" onclick="reestablecer()"></i>  
+                    <i class="fas fa-moon" id="luna-sol" onclick="cambiar()"></i>
+                </div>
+                <div class="barra">
+                    <a href=""> <i class="fas fa-arrow-left"></i> </a>
+                    <a href=""> <i class="fas fa-arrow-right"></i> </a>
+                </div>
+            </div>
+                <div class="historia">
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rem minima maiores tempora
+                        laudantium beatae, iure, voluptate, id quos esse tempore corrupti nam delectus corporis.
+                        Accusantium veniam quo autem corporis?
+                        Soluta fuga eveniet officia, praesentium accusamus, totam distinctio debitis vero unde animi
+                        itaque consectetur sunt perspiciatis, molestiae eos vel ea. Ab nesciunt cumque expedita impedit
+                        nam porro vitae quas voluptatem.
+                        Sed, nemo nihil possimus ad vero perferendis deleniti quidem veniam omnis natus, ex rerum
+                        ratione voluptates beatae architecto fuga repellendus consequuntur dolorem, saepe molestiae illo
+                        error dolor magnam odit. Voluptate!
+                        Doloribus maxime quos aliquam inventore nobis laboriosam nisi provident officia deserunt animi
+                        alias perspiciatis, cum veniam consectetur tempore et blanditiis vitae ab exercitationem rerum
+                        ducimus earum? Nihil adipisci saepe sunt.
+                        Nulla nam asperiores odit, vero, iusto fuga porro incidunt minus quod quibusdam necessitatibus
+                        reiciendis omnis tempora odio quas, a non autem facere cum ut temporibus repellat voluptatum
+                        quia? Inventore, at!
+                        Velit, hic earum incidunt error unde ducimus nesciunt doloremque? Eius quisquam explicabo,
+                        temporibus ut velit autem, ullam blanditiis ea excepturi maxime iure iste error sunt sapiente
+                        praesentium eligendi consequuntur adipisci.
+                        Quam illum eveniet amet laboriosam saepe. Quo nostrum eius doloribus deleniti qui ut sapiente
+                        sed, vitae suscipit corporis laborum unde quia quaerat labore. Tenetur non laudantium corporis
+                        eos. Eius, culpa.
+                        Doloremque suscipit rerum doloribus blanditiis. Perspiciatis obcaecati accusamus repellat
+                        placeat architecto est ipsam, voluptate soluta voluptates. Architecto molestiae, at odit cum
+                        autem consectetur odio natus, doloremque quod corporis laborum quia!
+                        Corporis voluptates aperiam sequi impedit ipsum, tempore deleniti aliquid eos perspiciatis iure
+                        ab eaque quas voluptate sit rerum vitae odit totam vel tempora velit explicabo adipisci
+                        reprehenderit neque laudantium. Expedita.
+                        Quisquam rerum asperiores aut corrupti quam eaque molestiae, numquam, dignissimos provident
+                        distinctio sit voluptatum incidunt dolor. Quas corrupti, et cum incidunt, quis harum, aliquid
+                        minus similique corporis doloribus tenetur minima.
+                    </p>
+                </div>
+                <div class="flexbox-de-boton-a-s">
+                    <button class="capitulo-a-s">
+                        <a href="#">Capitulo anterior</a> 
+                    </button>
+                    <button class="capitulo-a-s">
+                        <a href="#">Capitulo Siguiente</a> 
+                    </button>
+                </div>
+        </div>
+        <!--Inicio de pie de pagina--> 
+        <footer class="contenedor-de-pie-de-pagina" >
+            <div class="">
+                <div class="">
+                    <h2>
+                        Siguenos por nuestras redes sociales
+                    </h2>
+                </div>
+                <div>
+                <nav id="redes">
+                    <a href=""><img src="imagenes/facebook.png" alt="facebook"></a>
+                    <a href=""><img src="imagenes/twitter.png" alt="twitter"></a>
+                    <a href=""><img src="imagenes/instagram.png" alt="instagram"></a>
+                </nav>
+                </div>
+            </div>
+            Copyright © 2021
+        </footer>
+        <!--Cierre de pie de pagina-->
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/capitulo.js"></script>
+</body>
+</html>

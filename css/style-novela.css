@@ -1,0 +1,41 @@
+.grilla{
+    width: 85%;
+    margin-top:10px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+}
+.titulo-ejemplo-novela{
+    font-family: 'Poppins', sans-serif;
+}
+.sinopsis-ejemplo{
+    font-family: 'Roboto', sans-serif;;
+}
+.genero-de-novelas{
+    font-size: 14px;
+    font-style: italic;
+}
+.etiqueta{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.etiqueta>div{
+    border: 1px solid black;
+    padding: 1.5px;
+    border-radius: 4px;
+    margin: 3px;
+    font-size: 13.3px;
+    color: white;
+    background-color: rgb(15, 73, 231);
+}
+#capitulos{
+    display: flex;
+    width: 85%;
+    margin:10px auto;
+}
+.t-s-g-e{
+    margin-top: 10px;
+}
+.t-s-g-e>.titulo-ejemplo-novela,.sinopsis-ejemplo,.genero-de-novelas,.etiqueta{
+    margin:6px 0px;
+}

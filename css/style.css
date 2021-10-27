@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.contenedor{
+    
+    width: 100%;
+    height: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 100px 1fr auto;
+    grid-template-rows: 100px;
+    align-items: center;
+    background-color:black;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+#dragon img{
+    width: 90px;
+    height: 90px;
+}
+#titulo h1{
+    margin: 5px;
+    color: white;
+    font-size: 4em;
+    font-family: 'Berkshire Swash', cursive;
+}
+#menu a{
+    border: 1px solid;
+    border-radius: 9px;
+    text-decoration: none;
+    margin:5px;
+    padding:10px;
+    color:white;
+    font-size: 1em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#menu a:hover{
+    color:rgb(71, 71, 250);
+}
+.contenedor-de-novela{
+    width: 85%;
+    height: 160px;
+    max-height: 160px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 2px;
+    margin:5px auto;
+}
+.grilla-de-novela{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+#caja-de-sinopsis{
+    margin-left: 6px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.flexbox-de-genero{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    margin: 2px 0px;
+}
+.flexbox-de-genero>div{
+    padding: 1px;
+    border: 1.5px double rgb(48, 44, 44);
+    font-size: 12.5px;
+    color: white;
+    background-color: rgb(2, 84, 160);
+    font-family: 'Maven Pro', sans-serif;
+    margin:3px;
+}
+article{
+    margin-top: 7px;
+    max-height: 170px;
+}
+.flexbox-de-boton{
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;  
+}
+.flexbox-de-boton>button{
+    padding: 3px;
+}
+.sin-sinopsis{
+    height: 66px;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.sinopsis{
+    max-height: 66px !important;
+    overflow:auto !important;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+#expandir-contenido{
+    margin-bottom: 15px;
+}
+#boton{
+    border-radius: 7px;
+    text-decoration: none;
+    background-color: white;
+    font-size: 13px;
+    color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imagen-generica{
+    margin-left: 3px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#imagen-generica > img{
+    
+    width: 90px;
+    height: 110px;
+}
+div p{
+    font-size: 15px;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(26, 24, 24);
+    text-align: center;
+    color: white;
+    position:relative;
+    bottom: -1;
+    font-family: 'Maven Pro', sans-serif !important;
+    font-size: 14px;
+}
+h2{
+    font-family: 'Maven Pro', sans-serif !important;
+}
+#redes>a>img{
+    width: 48px;
+    height: 48px;
+    margin: 0px 4px;
+}
+
