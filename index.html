@@ -14,13 +14,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>        
-    <link href="https://fonts.googleapis.com/css2? family=Maven+Pro&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat:wght@200;500&family=Roboto:wght@300;400&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Roboto:wght@300;400&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>Dragono</title>
 </head>
-
 <body>
 <!--inicio de cabezera-->
     <div class="contenedor">
@@ -31,16 +29,17 @@
             <div id="titulo">
                 <h1>Dragono </h1>
             </div>
-            <div id="menu">
+            <div class="menu">
                 <a href="#" target="_self"><i class="fas fa-home"></i> Inicio</a>
                 <a href=""><i class="fas fa-sort-alpha-down"></i> Orden Alfabetico</a>
                 <a href=""><i class="fas fa-star"></i> Mas leidos</a>
                 <a href=""><i class="fas fa-book"></i> Genero</a>
-                <a href="iniciar-sesion.html" target="_blank"><i class="far fa-user"></i> Iniciar sesion</a>
+                <a href="iniciar-sesion.html" target="_blank"><i class="far fa-user"></i> Iniciar sesion</a>   
             </div>
+            <a href="#" class="caja-de-barra" id="caja-de-barras"><i class="fas fa-bars barras" ></i></a>
         </div>
 <!--cierre de cabezera-->
-        <div class="contenedor-de-novela">
+        <div class="contenedor-de-novela" id='contenedor-1'>
             <article>
                 <div class="grilla-de-novela">
                     <div id="imagen-generica"> 
@@ -328,9 +327,7 @@
         </footer>
         <!--Cierre de pie de pagina-->
     </div>
-    <script src="temporal-javascript.js"></script>
-    <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/main.js"></script>
+    <script defer src="js/main.js"></script>
 </body>
 
 </html>

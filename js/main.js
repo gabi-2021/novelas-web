@@ -15,3 +15,9 @@ botones.forEach((boton,i)=>{
         }
     })
 });
+const btn=document.querySelector('.barras');
+const menu=document.querySelector('.menu')
+btn.addEventListener('click',()=>{
+    menu.classList.toggle('menu-activo');
+}
+);
