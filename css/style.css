@@ -250,7 +250,7 @@ h2{
         color:white;
     }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:300px){
     #contenedor-1{
         margin-top:-80px;
     }
